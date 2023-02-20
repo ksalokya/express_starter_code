@@ -21,20 +21,11 @@ app.listen(port, function () {
 });
 ```
 ```js
-{
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.1",
-    "mongoose": "^6.3.3",
-    "nodemon": "^2.0.16"
-  }
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1",
+"start": "nodemon index.js"
 }
+```
+```js
+npm i body-parser dotenv express mongoose nodemon
 ```
